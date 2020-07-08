@@ -1,90 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Photography Website Shuvo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's PhotoTime</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="header">
-        <div class="up">
-            <div class="left">
-                <img class="st" src="file/st.png" alt="Logo">
+    <!-- Header part -->
+    <header id="home">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <a href="#home"><img class="logo" src="images/logo.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#subs">SUBSCRIPTION</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="right">
-                <ul>
-                    <li><a class="but" href="#">Home</a></li>
-                    <li><a class="but" href="#">About</a></li>
-                    <li><a class="but" href="#">Experience</a></li>
-                    <li><a class="but" href="#">Testimonials</a></li>
-                    <li><a class="but" href="#">Hire Me</a></li>
-                </ul>
+            <div class="content">
+                <h1 class="heading">Photographer Based in Dhaka</h1>
+                <hr class="mb-2">
+                <p class="subtitle">Passion for capturing new ideas</p>
+                <a href="#subscription" class="btn btn-outline-dark">SUBSCRIBE</a>
             </div>
+
         </div>
-        <div class="down">
-            <h1>Photographer Based in Dhamrai</h1> <hr class="hr1">
-            <h2>Passion for capturing new ideas</h2>
-            <p>There are many variations of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-        </div>
-    </div>
-    <div class="body-area">
-        <div class="white-area">
-            <div class="pic1">
-                <img class="img1" src="file/wedding.jpg" alt="wedding photo">
-            </div>
-            <div class="write">
-                <h3>Wedding photography</h3>
-                <span>This is a mixture of many other photographic genres. It incorporates portraiture, family and group photography, documentary, boudoir, event, and close-up images. Perhaps it even incorporates landscapes. This is especially true if the location is particularly beautiful or important.</span>
-            </div>
-        </div>
-        <div class="black-area">
-            <div class="write2">
-                <h3>Nature photography</h3>
-                <span>This is a wide range of photography taken outdoors and devoted to displaying natural elements such as landscapes, wildlife, plants, and close-ups of natural scenes and textures.</span>
-            </div>
-            <div class="image">
-                <img class="img2" src="file/nature1.jpg" alt="Nature photo">
-            </div>
-        </div>
-        <div class="yellow-area">
-            <div class="imag3">
-                <img class="img3" src="file/animal.jpg" alt="Animal Photo">
-            </div>
-            <div class="write3">
-               <h3>Animal photography</h3>
-                <span>This is a loosely-defined profession which demands a passion for nature and art. Wildlife photographers make a career of traveling to remote areas and taking pictures of wild animals and natural scenery.</span>
-            </div>
-        </div>
-        <div class="other-area">
-            <div class="first">
-                <img class="other" src="file/other1.jpg" alt="Photo">
-            </div>
-            <div class="second">
-                <img class="other" src="file/other2.jpg" alt="Photo">
-            </div>
-            <div class="third">
-                <img class="other" src="file/other3.jpg" alt="Photo">
-            </div>
-            <div class="fourth">
-                <img class="other" src="file/shuvo.jpg" alt="Photo">
-            </div>
-        </div>
-        <div class="contact">
-            <h2>Send a message</h2>
-            <input class="txt" type="text" placeholder="Your Name">
-            <input class="txt" type="email" placeholder="Your Email "><br>
-            <input class="msg" type="text" placeholder="Subject"><br>
-            <input class="msg" type="text" placeholder="Your Message"><br>
-            <input class="bt" type="submit" value="Send Message">
-        </div>
-    </div>
-    <div class="footer">
-        <span class="owner">Developed by Shuvo Tarafder</span> 
-        <hr class="hr2">
-        <div class="con">
-            <span>Contact Us</span> <br>
-            <img class="icon" src="file/icon.png" alt="Favicon">
-        </div>
-    </div>
+    </header>
+
+    <!-- JS File -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

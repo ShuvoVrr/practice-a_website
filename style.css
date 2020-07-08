@@ -1,181 +1,57 @@
-body{
-    margin: 0px;
-    font-family: tahoma;
+html {
+    scroll-behavior: smooth;
 }
-.header{
-    width: 100%;
-    height: 450px;
-    background-image: url(file/cover.jpg);
+
+.container {
+    max-width: 1280px;
+}
+
+
+/** Header **/
+
+header {
+    background: linear-gradient(rgba(135, 80, 156, 0.6),rgba(135, 80, 156, 0.1)), url(images/hero_bg.jpg);
     background-size: cover;
-    padding-top: 5px;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
 }
-.st{
-    width: 200px;
-    height: auto;
-    margin: 30px ;
-    margin-right: 80px;
-    float: left;
+
+header .logo {
+    width: 120px;
 }
-li{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    float: left;
-    margin-top: 50px;
+
+header .nav .nav-link {
+    color: #000;
+    font-weight: bold;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+header .nav .nav-link:hover {
+    color: gray;
 }
-.but{
-    margin: 10px;
-    padding: 8px;
-    overflow: hidden;
+
+header .content {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 250px;
 }
-a:hover{
-    color: white;
-    background: black;
-    padding: 8px;
-    border-radius: 3px;
+
+header .content .heading {
+    font-weight: bold;
+    letter-spacing: 2px;
 }
-.down{
-    overflow: hidden;
-    clear: both;
-    margin: 200px;
-    padding-top: 100px;
-}
-.hr1{
-    width: 220px;
-    border: 2px solid red;
-    margin: 0px;
-}
-p{
-    color: white;
-}
-.white-area{
-    width: 100%;
-    height: 300px;
-}
-.img1{
-    width: 300px;
-    height: 200px;
-    border-radius: 50%;
-    float: left;
-    margin: 50px 20px;
-}
-.write{
-    overflow: hidden;
-    padding-top: 60px;
-}
-.black-area{
-    width: 100%;
-    height: 300px;
-    background: black;
-    position: relative;
-}
-.write2{
-    padding-top: 60px;
-    color: white;
-    width: 70%;
-    margin: 20px;
-    float: left;
-}
-.img2{
-    width: 300px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.image{
-    padding-top: 40px;
-}
-.yellow-area{
-    width: 100%;
-    height: 300px;
-    background: yellow;
-}
-.img3{
-    width: 300px;
-    height: 200px;
-    border-radius: 50%;
-    float: left;
-    margin: 50px 20px;
-}
-.write3{
-    overflow: hidden;
-    padding-top: 60px;
-}
-h3:hover{
+
+header .content hr {
     color: red;
+    height: 4px;
+    max-width: 150px;
 }
-.img1:hover{
-    width: 300px;
-    height: 200px;
-    border-radius: 0px;
+
+header .content .subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
-.img2:hover{
-    width: 300px;
-    height: 200px;
-    border-radius: 0px;
-}
-.img3:hover{
-    width: 300px;
-    height: 200px;
-    border-radius: 0px;
-}
-h1:hover{
-    color: white;
-}
-.other-area{
-    width: 100%;
-    height: 250px;
-    background: black;
-}
-.other{
-    width: 25%;
-    height: 250px;
-    float: left;
-}
-.contact{
-    width: 100%;
-    height: 230px;
-    background-color: chartreuse;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.txt{
-    width: 200px;
-    padding: 8px;
-    border-radius: 5px;
-}
-.msg{
-    width: 423px;
-    padding: 8px;
-    margin: 5px;
-    border-radius: 5px;
-}
-.bt{
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-.footer{
-    width: 100%;
-    height: 150px;
-}
-.hr2{
-    color: black;
-    opacity: 0.3;
-}
-.con{
-    text-align: center;
-}
-.owner{
-    margin: 20px;
-    opacity: 0.6;
-}
-.icon{
-    margin-top: 10px;
-    width: 100px;
+
+header .content .btn {
+    margin-top: 150px;
 }
