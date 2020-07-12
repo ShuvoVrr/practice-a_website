@@ -104,21 +104,19 @@ header .content .btn {
 
 /** Experience **/
 
-.expe .heading {
+.experience .heading {
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
 
-.expe .info {
+.experience .info {
     max-width: 650px;
     margin: auto;
     font-size: 16px;
     letter-spacing: 2px;
 }
-
-
 
 
 
