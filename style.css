@@ -55,3 +55,73 @@ header .content .subtitle {
 header .content .btn {
     margin-top: 150px;
 }
+
+/** Demo **/
+
+
+.demo .row img {
+    width: 250px;
+    height: 180px;;
+}
+
+.demo .container {
+    max-width: 100%;
+}
+
+.demo .container .title {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.demo .col-md-8 {
+    max-width: 600px;
+    height: 100%;
+    margin: auto;
+}
+
+/** About **/
+
+.about {
+    background: linear-gradient(rgba(226, 200, 196, 0.8),rgba(226, 200, 196, 0.7)), url(images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about .heading {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about .info {
+    max-width: 750px;
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/** Experience **/
+
+.expe .heading {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.expe .info {
+    max-width: 650px;
+    margin: auto;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
